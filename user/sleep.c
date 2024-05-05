@@ -6,7 +6,7 @@ int
 main(int argc, char* argv[])
 {
     if (argc != 2) {
-        fprintf(2, "Usage: sleep ticks\n");
+        fprintf(2, "Usage: sleep times\n");
     }
     int time = atoi(*++argv);
     if (sleep(time) != 0) {
